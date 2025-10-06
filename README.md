@@ -1,6 +1,6 @@
-# 🏛️ Contribuțiile Evreiești la Dezvoltarea Iașului
-
 <div align="center">
+
+# 🏛️ Contribuțiile Evreiești la Dezvoltarea Iașului
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fcontributii-evreiesti.site)](https://alexutzusoft.github.io/contributii-evreiesti)
 [![GitHub stars](https://img.shields.io/github/stars/AlexutzuSoft/contributii-evreiesti)](https://github.com/AlexutzuSoft/contributii-evreiesti/stargazers)
