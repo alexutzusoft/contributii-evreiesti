@@ -6,6 +6,19 @@
     <title>Contribuțiile Evreiești la Dezvoltarea Economică și Culturală a Iașului</title>
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        'gradient': 'gradient 6s ease infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'glow': 'glow 2s ease-in-out infinite alternate'
+                    }
+                }
+            }
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -36,16 +49,33 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="min-h-screen flex items-center justify-center parallax" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYIiH6W-jkGkbcb44D9xzGAxbFZ7DWzPXSqY-vP0LqVlDkvu49tkvTH98sE99lCdMLpqCXYuq8Sw3xakih37dVjAUdERIm-75DZrFULnXmPo1v43GKv16HKSV1Uq59eb67cq3FoV86VRV4/w1200-h630-p-k-no-nu/1925+sinagoga.jpg')">
-        <div class="text-center px-6">
-            <h1 class="serif text-4xl md:text-6xl font-bold mb-6 aurora-text">Contribuțiile evreiești la dezvoltarea economică și culturală a Iașului</h1>
-            <p class="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto hero-text">O prezentare a contribuțiilor comunității evreiești la dezvoltarea economică, culturală și științifică a orașului Iași în secolele XVIII-XX</p>
-            <a href="#introduction" class="inline-block shimmer-button text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg bounce-in">
-                Descoperă Contribuțiile
-            </a>
+    <section class="min-h-screen flex items-center justify-center relative overflow-hidden hero-background">
+        <div class="hero-overlay"></div>
+        <div class="hero-pattern"></div>
+        <div class="text-center px-6 relative z-10 max-w-6xl mx-auto">
+            <div class="hero-badge mb-6">
+                <span class="text-sm font-medium tracking-wider uppercase">Proiect Educațional</span>
+            </div>
+            <h1 class="hero-title serif text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
+                Contribuțiile Evreiești la dezvoltarea Iașului
+            </h1>
+            <p class="hero-subtitle text-xl md:text-2xl lg:text-3xl mb-12 max-w-4xl mx-auto leading-relaxed">
+                O prezentare a contribuțiilor comunității evreiești la dezvoltarea economică, culturală și științifică a orașului Iași în secolele XVIII-XX
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#introduction" class="hero-cta-primary group">
+                    <span class="relative z-10">Descoperă Contribuțiile</span>
+                    <div class="cta-shine"></div>
+                </a>
+                <a href="#gallery" class="hero-cta-secondary">
+                    <i data-feather="image" class="w-5 h-5 mr-2"></i>
+                    Vezi Galeria
+                </a>
+            </div>
         </div>
-        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <i data-feather="chevron-down" class="text-white hero-text"></i>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <i data-feather="chevron-down" class="w-6 h-6 text-white/70 animate-bounce"></i>
         </div>
     </section>
 
