@@ -2,12 +2,12 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fcontributii-evreiesti.site)](http://contributii-evreiesti.site)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fcontributii-evreiesti.site)](https://alexutzusoft.github.io/contributii-evreiesti)
 [![GitHub stars](https://img.shields.io/github/stars/AlexutzuSoft/contributii-evreiesti)](https://github.com/AlexutzuSoft/contributii-evreiesti/stargazers)
 
 **Prezentarea contribuțiilor comunității evreiești la dezvoltarea economică și culturală a Iașului**
 
-[🌐 Live Demo](http://contributii-evreiesti.site)
+[🌐 Live Demo](https://alexutzusoft.github.io/contributii-evreiesti)
 
 </div>
 
